@@ -1,4 +1,5 @@
-# find_equations
+# find equations
+**Usefull for science and engineering students who need to memorize many different equations**
 Find the right equation for given known variables you have and the ones you are trying to calculate. Think of it as Ctrl-F for equations.
 ## First setup
 1. download the python script
