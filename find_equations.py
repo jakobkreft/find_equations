@@ -8,7 +8,7 @@ equations = {}
 #add the data to the dictionary
 
 #load data to the dictionary
-with open('varEK.csv', 'r', newline='', encoding='cp1252') as csvfile:
+with open('variables.csv', 'r', newline='', encoding='cp1252') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         #print("row: ", row)
@@ -19,7 +19,7 @@ with open('varEK.csv', 'r', newline='', encoding='cp1252') as csvfile:
     #print ("variables: ", variables)
 
 #load data to the dictionary
-with open('eqEK.csv', 'r', newline='', encoding='cp1252') as csvfile:
+with open('equations.csv', 'r', newline='', encoding='cp1252') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         #print("row: ", row)
